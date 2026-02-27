@@ -44,8 +44,7 @@ export default function HeroSection() {
             {/* Headline */}
             <motion.h1
               {...fadeUp(0.2)}
-              className=" flex w-full justify-center gap-2 font-display font-bold leading-snug my-4 text-5xl text-center sm:text-6xl lg:text-7xl
-  "
+              className="flex w-full justify-center lg:justify-start gap-2 font-display font-bold leading-snug my-4 text-5xl text-center sm:text-6xl lg:text-7xl"
             >
               <span className="text-shimmer">طعم</span>
               <span className="text-[#FFF5E6]">الأصالة</span>

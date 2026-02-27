@@ -28,8 +28,8 @@ export default function Navbar() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 sm:px-6 lg:px-[5%] h-16 md:h-[72px] transition-all duration-300 ${scrolled || menuOpen
-            ? "bg-[#0a0300ee] backdrop-blur-xl border-b border-[#3d1a0033]"
-            : "bg-transparent"
+          ? "bg-[#0a0300ee] backdrop-blur-xl border-b border-[#3d1a0033]"
+          : "bg-transparent"
           }`}
       >
         {/* ── Logo ── */}
@@ -37,7 +37,7 @@ export default function Navbar() {
           <div className="w-9 h-9 md:w-11 md:h-11 rounded-xl bg-gradient-to-br from-[#C84B11] to-[#FF6B35] flex items-center justify-center text-xl md:text-2xl shadow-[0_4px_15px_rgba(200,75,17,0.35)]">
             🍽️
           </div>
-          <div>
+          <div className="flex flex-col gap-2">
             <p className="font-display text-base md:text-xl font-bold text-[#FFF5E6] leading-none">
               {SITE.name}
             </p>
