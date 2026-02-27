@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NextJS-Dark.svg" width="60" />
 
-# 🍽️ مطعم الحاج عبده
+# 🍽️ مطعم الحاج محفوظ
 
 ### Landing Page — أكل شعبي مصري أصيل
 
