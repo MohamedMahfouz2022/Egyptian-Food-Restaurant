@@ -6,7 +6,7 @@ export default function Footer() {
       {/* Mobile: stacked | Desktop: row */}
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-right">
         <p className="text-[#7A5A4A] text-xs sm:text-sm">
-          جميع الحقوق محفوظة © ٢٠٢٥ {SITE.name}
+          جميع الحقوق محفوظة © ٢٠٢٦ {SITE.name}
         </p>
 
         <p className="font-display text-lg sm:text-xl text-[#C84B11]">بنطبخ بحب ❤️</p>
