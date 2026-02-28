@@ -37,7 +37,7 @@ export default function HeroSection() {
           <div className="text-center lg:text-right">
             {/* Badge */}
             <motion.div {...fadeUp(0)} className="inline-flex items-center gap-2 bg-[#C84B1120] border border-[#C84B1140] rounded-full px-4 py-1.5 mb-5">
-              <span className="text-[#C84B11] text-xs font-bold">⭐ الأفضل في القاهرة</span>
+              <span className="text-[#C84B11] text-xs font-bold">⭐ الأفضل في دمنهور</span>
               <span>🏆</span>
             </motion.div>
 
@@ -73,7 +73,7 @@ export default function HeroSection() {
             </motion.div>
 
             {/* Stats */}
-            <motion.div {...fadeUp(0.8)} className="flex justify-center lg:justify-end gap-6 sm:gap-10 mt-10">
+            <motion.div {...fadeUp(0.8)} className="flex justify-center md:justify-start gap-6 sm:gap-10 mt-10">
               {STATS.map((stat) => (
                 <div key={stat.label} className="text-center">
                   <p className="font-display text-2xl sm:text-3xl font-bold text-[#C84B11]">
