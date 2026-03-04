@@ -5,8 +5,8 @@ import { Button } from "@/components/ui";
 import { useCart } from "@/context/CartContext";
 
 export default function Navbar() {
-  const [scrolled,  setScrolled]  = useState(false);
-  const [menuOpen,  setMenuOpen]  = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const { totalQty } = useCart();
 
   useEffect(() => {
@@ -37,7 +37,7 @@ export default function Navbar() {
           <div className="w-9 h-9 md:w-11 md:h-11 bg-gradient-to-br from-[#C84B11] to-[#FF6B35] rounded-xl flex items-center justify-center text-xl shadow-[0_4px_15px_#C84B1155]">
             🍽️
           </div>
-          <div>
+          <div className="flex flex-col gap-2">
             <p className="font-display text-base md:text-lg font-bold text-[var(--color-text)] leading-none">
               {SITE_CONFIG.name}
             </p>
