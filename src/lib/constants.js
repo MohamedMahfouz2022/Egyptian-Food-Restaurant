@@ -27,7 +27,7 @@ export const NAV_LINKS = [
   { label: "القائمة", href: "#menu" },
   { label: "قصتنا", href: "#about" },
   { label: "المميزات", href: "#features" },
-  { label: "تواصل معنا", href: "#contact" },
+  // { label: "تواصل معنا", href: "#contact" },
 ];
 
 export const STATS = [
